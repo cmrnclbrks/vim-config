@@ -11,4 +11,3 @@ set textwidth=79
 set expandtab
 set autoindent
 set fileformat=unix
-setlocal colorcolumn=80

@@ -11,9 +11,6 @@ call vundle#begin()
 " Lets Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 
-" Rectifies folding issue using indentation mode
-" Plugin 'tmhedberg/SimpylFold'
-
 " Provides auto-completers for Python
 Bundle 'Valloric/YouCompleteMe'
 
@@ -90,4 +87,3 @@ let g:airline_theme='dark_minimal'
 " --- File Browsing Settings ---
 
 let NERDTreeIgnore=['\.pyc$', '\~$']
-
