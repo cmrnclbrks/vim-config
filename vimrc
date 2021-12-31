@@ -17,6 +17,9 @@ Bundle 'Valloric/YouCompleteMe'
 " Provides syntax checking and highlighting
 Plugin 'vim-syntastic/syntastic'
 
+" Auto-braces
+Plugin 'Raimondi/delimitMate'
+
 " Enables PEP 8 checking
 Plugin 'nvie/vim-flake8'
 
@@ -58,6 +61,10 @@ set noswapfile
 " Code folding
 set foldmethod=indent
 set foldlevel=99
+
+" Auto-expanding
+let delimitMate_expand_cr = 1
+filetype indent plugin on
 
 " --- Auto-Complete Settings ---
 
