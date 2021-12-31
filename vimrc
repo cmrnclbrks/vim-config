@@ -69,7 +69,6 @@ filetype indent plugin on
 " --- Auto-Complete Settings ---
 
 let g:ycm_autoclose_preview_window_after_completion=1
-" map <space>g :YcmCompleter GoToDefinitionElseDeclaration<CR>
 
 " --- Remaps ---
 
